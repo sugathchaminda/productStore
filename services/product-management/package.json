@@ -9,7 +9,7 @@
     "nodeserver": "babel-node server",
     "start": "babel-node server",
     "server": "nodemon --exec babel-node server",
-    "lint": "eslint \"**/*.js\" --max-warnings=0",
+    "lint": "eslint \"**/*.js\" --max-warnings=20",
     "delete-data": "babel-node seeder delete"
   },
   "author": "Sugath Fernando",

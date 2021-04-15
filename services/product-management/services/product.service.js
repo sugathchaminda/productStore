@@ -52,10 +52,10 @@ class ProductService {
       success: true,
       message: PRODUCT_ADDED,
       data: {
-        ProductName: ProductName,
-        ProductSlug: ProductSlug,
-        SKU: SKU,
-        Brand: Brand,
+        ProductName,
+        ProductSlug,
+        SKU,
+        Brand,
       },
     };
 

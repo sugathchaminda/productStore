@@ -22,8 +22,8 @@ describe('Create New Product end point', () => {
         ProductName: 'testProd1',
         ProductSlug: 'testProdSlug',
         SKU: 'testProdSKU',
-        Brand: 'testProdBrand'
-    }
+        Brand: 'testProdBrand',
+      },
     });
   });
 });
@@ -32,7 +32,7 @@ describe('Create New Product end point', () => {
 describe('Get All Products', () => {
   // eslint-disable-next-line no-undef
   it('should create a new product', async () => {
-    const res = await request(app).get('/api/v1/products')
+    const res = await request(app).get('/api/v1/products');
     // eslint-disable-next-line no-undef
     expect(res.statusCode).toEqual(200);
   });
@@ -42,12 +42,12 @@ describe('Get All Products', () => {
 describe('Get Product By ID', () => {
   // eslint-disable-next-line no-undef
   it('should get return 404', async () => {
-    const res = await request(app).get('/api/v1/products/9999')
+    const res = await request(app).get('/api/v1/products/9999');
     // eslint-disable-next-line no-undef
     expect(res.statusCode).toEqual(404);
     expect(res.body).toEqual({
       success: false,
-      error: 'Product not found'
+      error: 'Product not found',
     });
   });
 });
