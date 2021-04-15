@@ -3,10 +3,10 @@ const config = {
   api_version_prefix: '/api/v1',
   port: 3000,
   cors_urls: '*',
-  DB_HOST: 'localhost',
+  DB_HOST: 'db',
   DB_NAME: 'PRODUCTMANAGER',
-  DB_USER: 'root',
-  DB_PASSWORD: 'Psalm54v2#',
+  DB_USER: 'users_service',
+  DB_PASSWORD: '123',
   DB_DIALECT: 'mysql',
   messageBus: 'amqp://guest:guest@localhost:15672',
   logs: {
