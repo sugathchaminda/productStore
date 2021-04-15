@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`config should load default values 1`] = `
+Object {
+  "DB_DIALECT": "mysql",
+  "DB_HOST": "localhost",
+  "DB_NAME": "PRODUCTMANAGER",
+  "DB_PASSWORD": "Psalm54v2#",
+  "DB_USER": "root",
+  "api_version_prefix": "/api/v1",
+  "cors_urls": "*",
+  "emails": Object {
+    "defaultFrom": "sugathsathkorala@gmail.com",
+    "fromName": "Xyz forum",
+  },
+  "jwt": Object {
+    "jwt_auth_secret": "AA48973B1A76A4710DD3D49F14F2CFEFC85C779F04F6CE79B7980B06178A9D5E",
+    "jwt_common_secret": "ULYOHJE7MYWPHMHPVDFQAL9RRZ7BA4BN6F24RRQNHTNG8I08PY8F339FQ43R42UA",
+    "jwt_expire": "1h",
+  },
+  "logs": Object {
+    "controller": "./logs/controller.log",
+    "cron": "./logs/cron.log",
+    "folder": "./logs",
+  },
+  "messageBus": "amqp://guest:guest@localhost:15672",
+  "port": 3000,
+  "sendgrid": Object {
+    "api_key": "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",
+  },
+  "startedMessage": "undefined is running on port 3000/",
+  "version": "1.0.0",
+}
+`;

@@ -1,0 +1,6 @@
+config/dev.json
+services/authentication/
+services/product_management/node_modules/
+services/product_management/coverage/
+services/product_management/tests/
+.DS_STORE
