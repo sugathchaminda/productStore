@@ -6,9 +6,9 @@ WORKDIR /usr/app
 COPY .npmrc .npmrc  
 
 COPY package*.json ./
-   
-# Copy everything in current directory to /server folder
-# ADD . /server
+COPY wait-for-it.sh /wait-for-it.sh
+
+RUN chmod +x /wait-for-it.sh 
 
 # Install dependencies
 RUN npm install
@@ -20,5 +20,7 @@ COPY . .
 EXPOSE 3000
 
 # Run node 
-ENTRYPOINT ["yarn","server:dev"]
+CMD /wait-for-it.sh db:3306 -- yarn server:dev
+
+# ENTRYPOINT ["yarn","server:dev"]
  

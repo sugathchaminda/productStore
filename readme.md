@@ -3,8 +3,7 @@ Purpose on this to integrate the microservice architecture and communicate these
 If you have docker-compose installed and docker running; it is really simple to spin up the entire application stack.
 
 Make sure you are in the root directory of the repository where the docker-compose file is.
-With docker application run in port 4000 with out docker you can run it on port 3000. 
-If somehow got issue in connecting mysql container try to restart only the product-management-ms container
+With docker application run in port 4000 with out docker you can run it on port 3000.
 
 **docker-compose up** starts it and **docker-compose down** stops it
 
