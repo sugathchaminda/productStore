@@ -87,7 +87,8 @@ yarn server:dev -  start the application
 
 
 ## Run unit tests
-* Go to the  services/product-management and yarn test
+* Login to the docker container using `docker exec -it product-management-ms bash`
+* Run `yarn test`
 
 ```
 cd services/product-management

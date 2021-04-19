@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "server:dev": "cross-env NODE_ENV=development nodemon --exec yarn nodeserver",
-    "test": "NODE_ENV=development jest --coverage",
+    "test": "NODE_ENV=test jest --coverage --forceExit --detectOpenHandles  --watchAll --maxWorkers=1",
     "nodeserver": "babel-node server",
     "start": "babel-node server",
     "server": "nodemon --exec babel-node server",

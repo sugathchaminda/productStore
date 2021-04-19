@@ -22,16 +22,12 @@ export const USER_REGISTERED              = 'User registered successfully.';
 export const USER_LOG_OUT_SUCCESS         = 'User log out successfully.';
 
 /** PRODUCT */
-export const POST_DELETED                 = 'Post deleted';
 export const PRODUCT_DELETED              = 'Product deleted';
 export const PRODUCT_NOT_FOUND            = 'Product not found';
 export const PRODUCT_ADDED                = 'Product created successfully';
 export const PRODUCT_UPDATED              = 'Product updated successfully';
 
 /** COMMON */
-export const EMAIL_SENT                   = 'An email was sent to your account. Please check';
-export const EMAIL_NOT_SENT               = 'Email could not be sent';
 export const RESOURCE_NOT_FOUND           = 'No resource found for this id';
 export const DUPLICATE_FIELD_VALUE        = 'Duplicate field value entered';
-export const EMAIL_POST_SUMMARY_ERROR     = 'Email send for post summary';
 export const MYSQL_DB_CONNECTED           = 'My SQL db connected';
